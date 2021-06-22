@@ -41,3 +41,16 @@ to Operate TurtleBot3 ,in new terminal:
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 ![gazeboslam](https://user-images.githubusercontent.com/85634104/122987979-e7fd4100-d3a9-11eb-9d28-f69b13f95f75.png)
+
+#### Run SLAM Node
+in new terminal:
+```
+$ export TURTLEBOT3_MODEL=waffle_pi
+$ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+```
+#### Run Teleoperation Node
+in new terminal:
+```
+$ export TURTLEBOT3_MODEL=burger
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
