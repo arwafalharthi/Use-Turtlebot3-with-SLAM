@@ -60,4 +60,5 @@ now we save the map, in new terminal:
 ```
 rosrun map_server map_saver -f ~/map
 ```
+![savemap](https://user-images.githubusercontent.com/85634104/123178187-5a941c80-d48f-11eb-85e6-2d8d03f693b7.png)
 
