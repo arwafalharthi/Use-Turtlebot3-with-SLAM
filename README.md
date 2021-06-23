@@ -54,6 +54,7 @@ $ export TURTLEBOT3_MODEL=waffle_pi
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 map is created
+
 ![rvizmap](https://user-images.githubusercontent.com/85634104/123177629-4ef42600-d48e-11eb-96fc-eb01c5ffe5ca.png)
 
 now we save the map, in new terminal:
