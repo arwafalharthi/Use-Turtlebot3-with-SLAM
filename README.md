@@ -44,9 +44,15 @@ in new terminal:
 $ export TURTLEBOT3_MODEL=waffle_pi
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
-#### Run Teleoperation Node
+![rvizturtlebot3](https://user-images.githubusercontent.com/85634104/123177648-53b8da00-d48e-11eb-86d6-b8ba1432607d.png)
+
+
+#### TO control the robot
 in new terminal:
 ```
 $ export TURTLEBOT3_MODEL=waffle_pi
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
+map is created
+
+
